@@ -30,6 +30,18 @@ func main() {
 	fmt.Println(messages)
 }
 
+/*
+// Discover the install path
+// $ go list -f '{{.Target}}'
+// $HOME/go/bin
+// $ export PATH=$PATH:/path/to/your/install/directory
+// OR
+// $ go env -w GOBIN=/path/to/your/bin
+// Install the binary to the target dir
+// $ go install
+// Run the appliccation (binary) from anywhere
+// $ hello
+*/
 // import "rsc.io/quote"
 /* func main_quote() {
     fmt.Println("Hello, world!")
